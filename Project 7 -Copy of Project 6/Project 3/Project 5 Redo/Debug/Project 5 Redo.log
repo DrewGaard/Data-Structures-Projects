@@ -1,0 +1,38 @@
+﻿Build started 2/21/2016 9:18:17 PM.
+     1>Project "E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Project 5 Redo\Project 5 Redo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp LinkedList.cpp Monster.cpp Princess.cpp RandomBox.cpp Shop.cpp crystal.cpp location.cpp main.cpp player.cpp
+         main.cpp
+         LinkedList.cpp
+         Generating Code...
+         Compiling...
+         player.cpp
+         location.cpp
+         crystal.cpp
+         Shop.cpp
+         RandomBox.cpp
+         Princess.cpp
+         Monster.cpp
+     1>e:\projects comp 53\project 7 -copy of project 6\project 3\project 5 redo\monster.cpp(43): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Game.cpp
+         Generating Code...
+     1>e:\projects comp 53\project 7 -copy of project 6\project 3\project 5 redo\monster.cpp(78): warning C4715: 'Monster::visit' : not all control paths return a value
+     1>e:\projects comp 53\project 7 -copy of project 6\project 3\project 5 redo\location.cpp(92): warning C4715: 'location::takeFromGround' : not all control paths return a value
+     1>e:\projects comp 53\project 7 -copy of project 6\project 3\project 5 redo\player.cpp(165): warning C4700: uninitialized local variable 'i' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Debug\Project 5 Redo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Debug\Project 5 Redo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Debug\Project 5 Redo.lib" /MACHINE:X86 Debug\crystal.obj
+         Debug\Game.obj
+         Debug\LinkedList.obj
+         Debug\location.obj
+         Debug\main.obj
+         Debug\Monster.obj
+         Debug\player.obj
+         Debug\Princess.obj
+         Debug\RandomBox.obj
+         Debug\Shop.obj
+         Project 5 Redo.vcxproj -> E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Debug\Project 5 Redo.exe
+     1>Done Building Project "E:\Projects Comp 53\Project 7 -Copy of Project 6\Project 3\Project 5 Redo\Project 5 Redo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.34
